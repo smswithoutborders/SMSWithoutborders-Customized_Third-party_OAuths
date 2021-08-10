@@ -1,0 +1,19 @@
+[{
+        "name": "google",
+        "description": "Made by Google",
+        "platforms": [{
+            "name": "gmail",
+            "description": "Google workspace",
+            "type": "email"
+        }]
+    },
+    {
+        "name": "twitter",
+        "description": "Made by Twitter",
+        "platforms": [{
+            "name": "twitter",
+            "description": "Twitter Status",
+            "type": "text"
+        }]
+    }
+]
