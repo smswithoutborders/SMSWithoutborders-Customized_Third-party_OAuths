@@ -93,11 +93,9 @@ module.exports =
                         };
 
                         await this.oauth2ClientToken.revokeToken(access_token).catch(err => {
-                            if (err.message == "invalid_token") {
-                                console.log(err);
-                            } else {
-                                reject(err.data);
-                            }
+                            if (err) {
+                                reject(err);
+                            };
                         });
 
                         resolve(true);
